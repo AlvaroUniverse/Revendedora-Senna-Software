@@ -1,0 +1,56 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB987B28-8A1C-4A0D-BEC7-F55180E44E12}|revendedora-senna-software\\revendedora-senna-software.csproj|c:\\users\\aluno3\\documents\\projetos\\te\\revendedora-senna-software\\revendedora-senna-software\\frm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FB987B28-8A1C-4A0D-BEC7-F55180E44E12}|revendedora-senna-software\\revendedora-senna-software.csproj|solutionrelative:revendedora-senna-software\\frm_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB987B28-8A1C-4A0D-BEC7-F55180E44E12}|revendedora-senna-software\\revendedora-senna-software.csproj|C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\revendedora-senna-software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB987B28-8A1C-4A0D-BEC7-F55180E44E12}|revendedora-senna-software\\revendedora-senna-software.csproj|solutionrelative:revendedora-senna-software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 315,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frm_Menu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\revendedora-senna-software\\frm_Menu.cs",
+              "RelativeDocumentMoniker": "revendedora-senna-software\\frm_Menu.cs",
+              "ToolTip": "C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\revendedora-senna-software\\frm_Menu.cs [Design]",
+              "RelativeToolTip": "revendedora-senna-software\\frm_Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:30:13.456Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\revendedora-senna-software\\Program.cs",
+              "RelativeDocumentMoniker": "revendedora-senna-software\\Program.cs",
+              "ToolTip": "C:\\Users\\Aluno3\\Documents\\projetos\\te\\Revendedora-Senna-Software\\revendedora-senna-software\\Program.cs",
+              "RelativeToolTip": "revendedora-senna-software\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T18:28:21.26Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
