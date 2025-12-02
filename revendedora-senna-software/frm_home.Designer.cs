@@ -61,6 +61,7 @@
             this.btn_VerCarro.TabIndex = 4;
             this.btn_VerCarro.Text = "Ver Carros";
             this.btn_VerCarro.UseVisualStyleBackColor = true;
+            this.btn_VerCarro.Click += new System.EventHandler(this.btn_VerCarro_Click);
             // 
             // btn_AdicionarCarro
             // 

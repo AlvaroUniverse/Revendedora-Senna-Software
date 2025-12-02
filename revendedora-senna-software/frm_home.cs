@@ -112,5 +112,16 @@ namespace revendedora_senna_software
         {
 
         }
+
+        private void btn_VerCarro_Click(object sender, EventArgs e)
+        {
+            // Ao clicar em Ver Carro, abre o formulário de cadastrados e esconde o Home
+            var frm = new frm_Cadastrado
+            {
+                Owner = this
+            };
+            frm.Show();
+            this.Hide();
+        }
     }
 }
