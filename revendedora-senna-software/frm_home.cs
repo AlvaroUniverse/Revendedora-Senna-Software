@@ -27,6 +27,38 @@ namespace revendedora_senna_software
 
             // Requisita redesenho ao redimensionar para manter o fundo correto
             this.Resize += (s, e) => this.Invalidate();
+
+            // Associa clique para abrir o formulário de desativar carros
+            btn_DesativarCarro.Click += Btn_DesativarCarro_Click;
+
+            // Garante que ao fechar este form (clicar no X) a aplicação termine definitivamente
+            this.FormClosing += Frm_home_FormClosing;
+        }
+
+        private void Frm_home_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Se o usuário está fechando a janela principal, encerra a aplicação por completo.
+            // Application.Exit fecha todas as forms; Environment.Exit garante finalização do processo se necessário.
+            try
+            {
+                Application.Exit();
+            }
+            finally
+            {
+                // Força encerramento do processo caso algo impeça o Application.Exit de finalizar.
+                Environment.Exit(0);
+            }
+        }
+
+        private void Btn_DesativarCarro_Click(object sender, EventArgs e)
+        {
+            // Abre frm_Desativar_Carro como owned form e esconde o Home para navegação consistente
+            var frm = new frm_Desativar_Carro
+            {
+                Owner = this
+            };
+            frm.Show();
+            this.Hide();
         }
 
         private void frm_home_Load(object sender, EventArgs e)

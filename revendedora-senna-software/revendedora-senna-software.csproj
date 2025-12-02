@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_Desativar_Carro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Desativar_Carro.Designer.cs">
+      <DependentUpon>frm_Desativar_Carro.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_Desativar_Carro.resx">
+      <DependentUpon>frm_Desativar_Carro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_home.resx">
       <DependentUpon>frm_home.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +97,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\senna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\senna_ds.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
