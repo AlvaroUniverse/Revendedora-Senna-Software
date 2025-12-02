@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_add_carro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_add_carro.Designer.cs">
+      <DependentUpon>frm_add_carro.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Cadastrado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_add_carro.resx">
+      <DependentUpon>frm_add_carro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Cadastrado.resx">
       <DependentUpon>frm_Cadastrado.cs</DependentUpon>
     </EmbeddedResource>

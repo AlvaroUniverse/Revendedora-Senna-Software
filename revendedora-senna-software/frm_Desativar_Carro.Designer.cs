@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.pnl_header = new System.Windows.Forms.Panel();
-            this.lbl_DesativarCarro = new System.Windows.Forms.Label();
+            this.btn_voltar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_DesativarCarro = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btn_desativar = new System.Windows.Forms.Button();
             this.lst_carroJaAdicionados = new System.Windows.Forms.ListBox();
-            this.btn_voltar = new System.Windows.Forms.Button();
             this.pnl_header.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -50,6 +50,24 @@
             this.pnl_header.TabIndex = 0;
             this.pnl_header.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
+            // btn_voltar
+            // 
+            this.btn_voltar.Location = new System.Drawing.Point(11, 18);
+            this.btn_voltar.Name = "btn_voltar";
+            this.btn_voltar.Size = new System.Drawing.Size(53, 22);
+            this.btn_voltar.TabIndex = 5;
+            this.btn_voltar.Text = "Home";
+            this.btn_voltar.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::revendedora_senna_software.Properties.Resources.senna_ds;
+            this.pictureBox1.Location = new System.Drawing.Point(228, 18);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(164, 54);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // lbl_DesativarCarro
             // 
             this.lbl_DesativarCarro.AutoSize = true;
@@ -60,15 +78,6 @@
             this.lbl_DesativarCarro.TabIndex = 1;
             this.lbl_DesativarCarro.Text = "Desativar Carro";
             this.lbl_DesativarCarro.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::revendedora_senna_software.Properties.Resources.senna_ds;
-            this.pictureBox1.Location = new System.Drawing.Point(228, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(164, 54);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -100,15 +109,6 @@
             this.lst_carroJaAdicionados.Size = new System.Drawing.Size(500, 69);
             this.lst_carroJaAdicionados.TabIndex = 4;
             // 
-            // btn_voltar
-            // 
-            this.btn_voltar.Location = new System.Drawing.Point(11, 18);
-            this.btn_voltar.Name = "btn_voltar";
-            this.btn_voltar.Size = new System.Drawing.Size(53, 22);
-            this.btn_voltar.TabIndex = 5;
-            this.btn_voltar.Text = "Home";
-            this.btn_voltar.UseVisualStyleBackColor = true;
-            // 
             // frm_Desativar_Carro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,6 +120,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_DesativarCarro);
             this.Controls.Add(this.pnl_header);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frm_Desativar_Carro";
             this.Text = "Desativar Carro";
             this.Load += new System.EventHandler(this.frm_Desativar_Carro_Load);

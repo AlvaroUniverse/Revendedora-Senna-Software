@@ -31,6 +31,9 @@ namespace revendedora_senna_software
             // Associa clique para abrir o formulário de desativar carros
             btn_DesativarCarro.Click += Btn_DesativarCarro_Click;
 
+            // Associa clique para abrir o formulário de adicionar carro
+            btn_AdicionarCarro.Click += Btn_AdicionarCarro_Click;
+
             // Garante que ao fechar este form (clicar no X) a aplicação termine definitivamente
             this.FormClosing += Frm_home_FormClosing;
         }
@@ -54,6 +57,17 @@ namespace revendedora_senna_software
         {
             // Abre frm_Desativar_Carro como owned form e esconde o Home para navegação consistente
             var frm = new frm_Desativar_Carro
+            {
+                Owner = this
+            };
+            frm.Show();
+            this.Hide();
+        }
+
+        private void Btn_AdicionarCarro_Click(object sender, EventArgs e)
+        {
+            // Abre frm_add_carro como owned form e esconde o Home para navegação consistente
+            var frm = new frm_add_carro
             {
                 Owner = this
             };

@@ -117,6 +117,8 @@
             this.Controls.Add(this.btn_VerCarro);
             this.Controls.Add(this.btn_AdicionarCarro);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frm_home";
             this.Text = "Pagina Inicial";
             this.Load += new System.EventHandler(this.frm_home_Load);

@@ -94,8 +94,10 @@
             this.Controls.Add(this.lsv_carros);
             this.Controls.Add(this.lbl_DesativarCarro);
             this.Controls.Add(this.pnl_header_cadastrados);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "frm_Cadastrado";
-            this.Text = "frm_Cadastrado";
+            this.Text = "Carros Cadastrados";
             this.Load += new System.EventHandler(this.frm_Cadastrado_Load);
             this.pnl_header_cadastrados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -21,3 +21,4 @@ C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedo
 C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_home.resources
 C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_Desativar_Carro.resources
 C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_Cadastrado.resources
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_add_carro.resources
