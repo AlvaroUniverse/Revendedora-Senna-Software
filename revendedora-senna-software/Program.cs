@@ -16,7 +16,7 @@ namespace revendedora_senna_software
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Menu());
+            Application.Run(new frm_home());
         }
     }
 }

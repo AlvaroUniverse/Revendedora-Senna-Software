@@ -8,3 +8,14 @@ C:\Users\Aluno3\Documents\projetos\revendedora-senna-software\revendedora-senna-
 C:\Users\Aluno3\Documents\projetos\revendedora-senna-software\revendedora-senna-software\obj\Debug\revendedora-senna-software.exe
 C:\Users\Aluno3\Documents\projetos\revendedora-senna-software\revendedora-senna-software\obj\Debug\revendedora-senna-software.pdb
 C:\Users\Aluno3\Documents\projetos\revendedora-senna-software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_Menu.resources
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\bin\Debug\revendedora-senna-software.exe.config
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\bin\Debug\revendedora-senna-software.exe
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\bin\Debug\revendedora-senna-software.pdb
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.csproj.AssemblyReference.cache
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.exe.config
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.Properties.Resources.resources
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.csproj.GenerateResource.cache
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.csproj.CoreCompileInputs.cache
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.exe
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora-senna-software.pdb
+C:\Users\pablitoo\Documents\Repositorios\ds\Revendedora-Senna-Software\revendedora-senna-software\obj\Debug\revendedora_senna_software.frm_home.resources
