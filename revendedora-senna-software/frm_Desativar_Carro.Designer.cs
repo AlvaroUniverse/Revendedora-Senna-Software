@@ -108,6 +108,7 @@
             this.lst_carroJaAdicionados.Name = "lst_carroJaAdicionados";
             this.lst_carroJaAdicionados.Size = new System.Drawing.Size(500, 69);
             this.lst_carroJaAdicionados.TabIndex = 4;
+            this.lst_carroJaAdicionados.SelectedIndexChanged += new System.EventHandler(this.lst_carroJaAdicionados_SelectedIndexChanged);
             // 
             // frm_Desativar_Carro
             // 

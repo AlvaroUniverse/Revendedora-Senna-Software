@@ -30,7 +30,6 @@
         {
             this.pnl_header_add = new System.Windows.Forms.Panel();
             this.btn_voltar_add = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txt_nome_vendedor = new System.Windows.Forms.TextBox();
             this.txt_nome_carro = new System.Windows.Forms.TextBox();
             this.txt_ano = new System.Windows.Forms.TextBox();
@@ -43,9 +42,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.lst_carro = new System.Windows.Forms.ListBox();
             this.btn_acessorio = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnl_header_add.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_header_add
@@ -67,15 +67,7 @@
             this.btn_voltar_add.TabIndex = 5;
             this.btn_voltar_add.Text = "Home";
             this.btn_voltar_add.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::revendedora_senna_software.Properties.Resources.senna_ds;
-            this.pictureBox1.Location = new System.Drawing.Point(204, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(164, 55);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.btn_voltar_add.Click += new System.EventHandler(this.btn_voltar_add_Click_1);
             // 
             // txt_nome_vendedor
             // 
@@ -139,7 +131,7 @@
             // 
             // btn_enviar
             // 
-            this.btn_enviar.Location = new System.Drawing.Point(191, 374);
+            this.btn_enviar.Location = new System.Drawing.Point(191, 373);
             this.btn_enviar.Name = "btn_enviar";
             this.btn_enviar.Size = new System.Drawing.Size(179, 40);
             this.btn_enviar.TabIndex = 6;
@@ -186,6 +178,15 @@
             this.btn_acessorio.Text = "Adicionar Acessorios";
             this.btn_acessorio.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::revendedora_senna_software.Properties.Resources.senna_ds;
+            this.pictureBox1.Location = new System.Drawing.Point(204, 10);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(164, 55);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // frm_add_carro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -208,8 +209,8 @@
             this.Name = "frm_add_carro";
             this.Text = "frm_add_carro";
             this.pnl_header_add.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

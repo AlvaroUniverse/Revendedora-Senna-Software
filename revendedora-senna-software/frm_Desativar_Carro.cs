@@ -19,16 +19,7 @@ namespace revendedora_senna_software
         // Fonte de dados exemplo (substitua pela sua fonte real)
         private readonly List<string> carros = new List<string>
         {
-            "swx",
-            "cece",
-            "edc",
-            "decde",
-            "cedec",
-            "ecde",
-            "cdce",
-            "c",
-            "e",
-            "dc"
+            
         };
 
         public frm_Desativar_Carro()
@@ -222,6 +213,11 @@ namespace revendedora_senna_software
         }
 
         private void frm_Desativar_Carro_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lst_carroJaAdicionados_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

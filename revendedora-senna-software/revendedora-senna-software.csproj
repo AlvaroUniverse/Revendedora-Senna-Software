@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frm_add_acessorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_add_acessorio.Designer.cs">
+      <DependentUpon>frm_add_acessorio.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_add_carro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_add_acessorio.resx">
+      <DependentUpon>frm_add_acessorio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_add_carro.resx">
       <DependentUpon>frm_add_carro.cs</DependentUpon>
     </EmbeddedResource>
